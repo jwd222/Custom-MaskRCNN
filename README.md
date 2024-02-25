@@ -54,7 +54,10 @@ The model doesn't train well using the configuration **USE_MINI_MASK=True**. Thi
 * First make an environment with tensorflow, can follow the given [link](https://gretel.ai/blog/install-tensorflow-with-cuda-cdnn-and-gpu-support-in-4-easy-steps)
 * Then install required dependencies.
 * Then clone the repo.
-* Scrips folder has the scripts required to train/test the model, data and weights.
+* `scripts/` folder has the scripts required to train/test the model, data and weights.
+* `samples/` folder has the sample notebooks from the original repository.
+* `data/` and `weights/` folders are required to train/tune the model.
+* `logs/` is needed for checking the model training and testing results.
 * For any inquiries open an issue.
 
 Thank you for your time!
