@@ -47,3 +47,14 @@ The model doesn't train well using the configuration **USE_MINI_MASK=True**. Thi
 
 # Compatability-Issues
 * **model.py/MaskRCNN/ancestor** looks to be obsolete because the [KerasTensor](https://github.com/keras-team/keras/blob/v2.8.0/keras/engine/keras_tensor.py#:~:text=KerasTensors%20are%20intended,instantiate%20%60KerasTensor%60s.) doesn't support the **op** member calling since TF 2.4 anymore. Consequently, all ancestor callings are disabled and remarked in the coresponding notebooks.
+
+
+# Custom MaskRCNN for Building Detection from aerial images
+
+* First make an environment with tensorflow, can follow the given [link](https://gretel.ai/blog/install-tensorflow-with-cuda-cdnn-and-gpu-support-in-4-easy-steps)
+* Then install required dependencies.
+* Then clone the repo.
+* Scrips folder has the scripts required to train/test the model, data and weights.
+* For any inquiries open an issue.
+
+Thank you for your time!
