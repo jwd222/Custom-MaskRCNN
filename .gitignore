@@ -1,0 +1,5 @@
+# Data files and directories common in repo root
+data
+images
+weights
+logs
