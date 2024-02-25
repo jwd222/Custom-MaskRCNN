@@ -50,6 +50,7 @@ The model doesn't train well using the configuration **USE_MINI_MASK=True**. Thi
 
 
 # Custom MaskRCNN for Building Detection from aerial images
+## Built on [this](https://github.com/maxw1489/Mask_RCNN) repository
 
 * First make an environment with tensorflow, can follow the given [link](https://gretel.ai/blog/install-tensorflow-with-cuda-cdnn-and-gpu-support-in-4-easy-steps)
 * Then install required dependencies.
